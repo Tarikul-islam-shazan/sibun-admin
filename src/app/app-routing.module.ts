@@ -3,10 +3,10 @@ import { NgModule } from '@angular/core';
 import {
   NbAuthComponent,
   NbLoginComponent,
-  NbLogoutComponent,
+  /*NbLogoutComponent,
   NbRegisterComponent,
   NbRequestPasswordComponent,
-  NbResetPasswordComponent,
+  NbResetPasswordComponent,*/
 } from '@nebular/auth';
 
 export const routes: Routes = [
@@ -27,22 +27,22 @@ export const routes: Routes = [
         path: 'login',
         component: NbLoginComponent,
       },
-      {
-        path: 'register',
-        component: NbRegisterComponent,
-      },
-      {
-        path: 'logout',
-        component: NbLogoutComponent,
-      },
-      {
-        path: 'request-password',
-        component: NbRequestPasswordComponent,
-      },
-      {
-        path: 'reset-password',
-        component: NbResetPasswordComponent,
-      },
+      // {
+      //   path: 'register',
+      //   component: NbRegisterComponent,
+      // },
+      // {
+      //   path: 'logout',
+      //   component: NbLogoutComponent,
+      // },
+      // {
+      //   path: 'request-password',
+      //   component: NbRequestPasswordComponent,
+      // },
+      // {
+      //   path: 'reset-password',
+      //   component: NbResetPasswordComponent,
+      // },
     ],
   },
   { path: '', redirectTo: 'pages', pathMatch: 'full' },
