@@ -111,7 +111,7 @@ export const NB_CORE_PROVIDERS = [
         name: 'email',
         token: {
           class: NbAuthJWTToken,
-          key: 'tokenData.token'
+          key: 'tokenData.token',
         },
         baseEndpoint: environment.serviceUrl,
         login: {
